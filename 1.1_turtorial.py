@@ -13,10 +13,12 @@ tommy = turtle.Turtle()
 tommy.shape('turtle')
 tommy.color('black')
 
+tommy.penup()
 tommy.right(90)
 tommy.forward(100)
 tommy.forward(20)
 tommy.left(90)
+tommy.pendown()
 
 tommy.begin_fill()
 tommy.color('red')
@@ -168,5 +170,7 @@ tommy.goto(75,135)
 
 
 #writes name
+#another test
+
 tommy.write('Kadin Terronez',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
